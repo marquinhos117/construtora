@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Construtora</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Construtora &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vem ser feliz</h1>
+
+        <form class="pesquisa" action="#" method="post">
+            <input id="pesquisa" type="text" placeholder="Busque seu produto" name="search" aria-label="Buscar no site">
+            <button id="pesquisa-botao" type="submit">Pesquisar</button>
+        </form><br><br><br>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a class="active" href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                Fundada há mais de 20 anos, a Construtora é uma empresa líder no setor de construção e reformas,
+                reconhecida por seu compromisso com a qualidade e inovação. Desde a nossa fundação, temos nos
+                dedicado a oferecer soluções completas para construção e renovação, atendendo a todos os tipos de
+                projetos, desde residenciais até comerciais.
+            </p>
+            <p>
+                Nossa missão é transformar sonhos em realidade, proporcionando um serviço de excelência que atenda
+                às necessidades e expectativas dos nossos clientes. Trabalhamos com uma equipe altamente qualificada e
+                experiente, que está sempre atualizada com as últimas tendências e tecnologias do mercado.
+            </p>
+            <p>
+                A visão da nossa empresa é ser a referência no setor de construção, reconhecida pela nossa integridade,
+                inovação e compromisso com a sustentabilidade. Buscamos constantemente melhorar nossos processos e
+                práticas para garantir a satisfação total dos nossos clientes.
+            </p>
+            <p>
+                Nossos valores são baseados na transparência, responsabilidade e respeito. Acreditamos que uma
+                comunicação aberta e honesta é fundamental para o sucesso de qualquer projeto, e é por isso que
+                mantemos nossos clientes informados e envolvidos em todas as etapas do processo.
+            </p>
+            <p>
+                Com um portfólio diversificado e uma base sólida de clientes satisfeitos, a Construtora continua a
+                expandir seus horizontes, sempre buscando novas oportunidades e desafios. Estamos comprometidos com
+                a excelência e com a entrega de resultados que superam as expectativas de nossos clientes.
+            </p>
+            <h2>Dados de Contato</h2>
+            <div class="contato">
+                    <p><strong>Telefone:</strong> (11) 98765-4321</p>
+                    <p><strong>Email:</strong> contato@construtoravemserfeliz.com.br</p>
+                    <p><strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo, SP</p>
+            </div>
+            <div class="formulario-contato">
+                <form action="envio_contato.php" method="post">
+                    <fieldset>
+                    <h2>Formulário de Contato</h2>
+                    <input type="text" id="nome" name="nome" required placeholder="Nome"><br>
+                    <input type="email" id="email" name="email" required placeholder="Email"><br>
+                    <input type="text" id="assunto" name="assunto" required placeholder="Assunto"><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Mensagem"></textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <div class="formulario-orcamento">
+            <h2>Solicite seu orçamento</h2>
+            <form action="envio_orcamento.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <p class="copy">&copy; 2024 Marcos Eduardo Graciano Paula</p>
+    </footer>
+</body>
+</html>
